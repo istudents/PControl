@@ -1,0 +1,24 @@
+.tdbody {
+    height: 200px;
+}
+.tdpno{
+    height: 100px;
+}
+
+.tdpno p{
+    color:#108e8b;
+    font-size: 30px;
+    margin: 10px 20px;
+    padding: 0;
+}
+
+.tlineup{
+    width:1170;
+    margin: 0 auto;
+}
+.tdetcoach {
+    float: left;
+    border: 1px solid green;
+    margin: 0 auto;
+
+}

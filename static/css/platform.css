@@ -1,0 +1,76 @@
+.platforms {
+    margin-top: 15px;
+}
+.singleplatform {
+    height: 100px;
+}
+.platformleft {
+    height: 100px;
+    width: 100px;
+    float: left;
+}
+.platformleft a{
+    font-size: 30px;
+    display: block;
+    color :#108eb3;
+}
+#pno {
+    width:40px;
+    margin: 30px auto;
+}
+.platformright {
+    width : 1100px;
+    float : left;
+}
+.platformup {
+    height : 50px;
+}
+.platformdown {
+    height : 50px;
+}
+.platformtn{
+    width : 280px;
+    float: left;
+}
+.platformtne{
+    width: 820px;
+    float: left;
+}
+.platformta{
+    width: 280px;
+    float: left;
+}
+.platformtd{
+    width: 280px;
+    float:left;
+}
+.platformtdn{
+    width: 540px;
+    float: left;
+}
+.platformtn a {
+    font-size: 18px;
+    color: #108eb3;
+}
+.headings p{
+    width : 140px;
+    margin: 0px 0px;
+    padding: 0px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #104e8b;
+    float: left;
+}
+.headnames {
+    font-size: 18px;
+    color: #108eb3;
+
+}
+#tno a:hover, #pno a:hover{
+    color: #000;
+}
+hr {
+    height :12px;
+    border:0;
+    box-shadow: inset 0 12px 12px -12px #104e8b;
+}

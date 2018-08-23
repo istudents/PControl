@@ -1,0 +1,37 @@
+{% load staticfiles %}
+<html>
+<head>
+  <title>++ Pi Control ++</title>
+  <link rel="stylesheet" href="{% static 'css/main.css' %}" >
+  <link rel="stylesheet" href="{% static 'css/platform.css' %}" >
+  <link rel="stylesheet" href="{% static 'css/platcontrol.css' %}" >
+</head>
+<body>
+    <div id="sitebody">
+        <div class="site">
+            <div id="siteimg">
+                <img src="{% static 'img/indian-railway.png' %}" >
+            </div>
+            <div class ="sitecontent">
+                {% for abc in siteinfo %}
+                <div class="sitename">{{abc.sitename}}</div>
+                <div class="siteinfo">{{abc.siteinfo}}</div>
+                {%endfor%}
+            </div>
+        </div>
+        <div class="tdbody">
+            <div class="tdpno"><p>Platform number 1 (Line up facing Platform)</p></div>
+            <div class="tlineup">
+            {% for dets in traindet %}
+                <div class="tdetcoach">{{dets.coachdet.coachname}} &nbsp;&nbsp;</div>
+            {% endfor %}
+            </div>
+        </div>
+        <div id="footer">
+             {% for abc in footer %}
+                <div id="footera"><a href="#">{{abc.footeritems}}</a></div>
+             {%endfor%}
+         </div>
+     </div>
+ </body>
+</html>

@@ -1,0 +1,102 @@
+body {
+    background: #efffee;
+}
+#sitebody {
+    width: 1200px;
+    margin: 25px auto;
+    background-color: #fff;
+    box-shadow: 0 0 130px -20px #104e8b;
+}
+
+.site {
+    height: 134px;
+    background: #104e8b;
+    color: #ffffff;
+}
+#siteimg {
+    width: 134px;
+    height: 134px;
+    float: left;
+}
+#siteimg img {
+    width: 124px;
+    height: 124px;
+    padding: 5px;
+}
+.sitecontent {
+    height: 134px;
+    float: left;
+}
+.sitename {
+    font-size: 60px;
+    margin-left: 20px;
+    padding: 10px;
+
+}
+.siteinfo {
+    font-size: 25px;
+    margin-left: 25px;
+    padding: 5px;
+}
+.menu {
+    height:403px;
+}
+
+.menuleft {
+    margin: 10px 0 0 10px;
+    width: 790px;
+    float: left;
+}
+.menuitem {
+    margin: 25 0px;
+    font-size: 35px;
+}
+.menuitem a{
+    text-decoration: none;
+    color: #108e8b;
+    display: block;
+}
+
+.menudesc {
+    margin-bottom: 0px;
+}
+.menuobject{
+    height: 165px;
+    width: 370px;
+    float:left;
+    padding: 10px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 50px -25px #080066;
+
+}
+#menuright {
+    height:403px;
+    width: 400px;
+    float: left;
+}
+#footer {
+    height : 40px;
+}
+
+#footera a:hover{
+    color: cadetblue;
+}
+
+.menuobject:hover{
+    box-shadow: 0px 0px 100px -20px  #108e8b;
+
+}
+#footer a{
+    text-decoration: none;
+    font-size: 20px;
+    color: cornflowerblue;
+}
+
+#footera {
+    float:left;
+    width:150px;
+}
+#footera a{
+    margin: 10px;
+}
+
